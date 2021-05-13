@@ -25,6 +25,15 @@ body{
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
+#v1{
+    margin: 20px;
+    display: block;
+}
+#v2{
+    margin: 20px;
+    display: block;
+}
 #Vb{
     margin: 20px;
     display: block;
