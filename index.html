@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composicion de movimiento:</title>
+</head>
+<body>
+    <h2>Ingresa datos:</h2> 
+        <label for="v1">V1</label>
+        <input type="number" name="v1" id="v1" onkeyup="module()">
+        <label for="v2">V2</label>
+        <input type="number" name="v2" id="v2" onkeyup="module()">
+        <p id="vF"></p>
+        <p id="ang"></p>
+        <hr>
+        <h2>Paralelogramo:</h2>
+        <label for="Vb">Vb (V1)</label>
+        <input type="number" name="Vb" id="Vb" onkeyup="para()">
+        <label for="Vc">Vc (V2)</label>
+        <input type="number" name="Vc" id="Vc" onkeyup="para()">
+        <label for="ang1">Angulo 1</label>
+        <input type="number" name="ang1" id="ang1" onkeyup="para()">
+        <label for="ang2">Angulo 2</label>
+        <input type="number" name="ang2" id="ang2" onkeyup="para()">
+        <p id="AngF"></p>
+        <p id="Vr"></p>
+        
+    <script src="./JS/app.dev.js"></script>
+</body>
+</html>
